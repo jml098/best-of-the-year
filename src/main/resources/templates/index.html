@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BestOfTheYear</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.1/dist/vapor/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body style="height: 100vh;">
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-1 fw-normal text-secondary border rounded btn-outline-info" data-aos="fade" data-aos-duration="3000" data-aos-once="true" fh:text="|Best of The Year by${userName}|" style="padding: 13px;">Best of The Year by Jean</h1>
+            </div>
+        </div>
+        <div class="row gx-5 d-flex justify-content-center" style="width: 100%;">
+            <div class="col-2 d-flex justify-content-center"><a class="fs-1 link-secondary btn btn-outline-info" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true" th:href="@{/movies}">Movies</a></div>
+            <div class="col-2 d-flex justify-content-center"><a class="fs-1 link-secondary btn btn-outline-info" data-aos="fade-left" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true" th:href="@{/songs}">Songs</a></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>
